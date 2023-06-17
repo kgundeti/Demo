@@ -1,0 +1,21 @@
+
+public class AbstrcFactor extends Factory {
+
+	@Override
+	Shape getShap(String type) {
+		if(type.equals("Rectongle")) {
+			return new Rectangle();
+		}
+		if(type.equals("Corcle")) {
+			return new Circle();
+		}
+		return null;
+	}
+
+	@Override
+	Color getColor(String type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

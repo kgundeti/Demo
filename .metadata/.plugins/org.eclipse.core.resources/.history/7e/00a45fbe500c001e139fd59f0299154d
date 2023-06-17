@@ -1,0 +1,4 @@
+FROM openjdk:11.0.17
+EXPOSE 9090
+ADD target/msg.jar msg.jar
+ENTRYPOINT ["java","-jar","/msg.jar"]

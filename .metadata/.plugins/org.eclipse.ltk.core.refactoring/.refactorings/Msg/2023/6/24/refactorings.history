@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Msg/Docker&apos; to &apos;Dockerfile&apos;" description="Rename resource &apos;Docker&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Docker" name="Dockerfile" stamp="1686922313819" updateReferences="true"/>
+</session>

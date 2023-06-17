@@ -1,0 +1,12 @@
+
+ interface Shape {
+	
+	public void draw();
+
+}
+ 
+ interface Color {
+		
+	public void fill();
+
+}

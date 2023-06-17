@@ -1,0 +1,31 @@
+
+public class ReverseList {
+   static Node head;
+   static class	Node {
+	   int data;
+	   Node next;
+	   
+	   Node(int data){
+		   this.data = data;
+		   next = null;
+	   }
+   }
+   
+   Node reverseList(Node node) {
+	   Node prev = null;
+	   Node current = node;
+	   Node next = null;
+	   while(current != null) {
+		   next = current.next;
+		   current.next = prev;
+		   prev.next = current.next;
+		   current = prev.next;
+		   
+	   }
+	   node = prev;
+	   
+	   
+	   return node;
+   }
+
+}

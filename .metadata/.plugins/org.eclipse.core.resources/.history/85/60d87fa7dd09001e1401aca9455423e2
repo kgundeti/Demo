@@ -1,0 +1,7 @@
+
+public abstract class Factory {
+	
+	abstract Shape getShap(String type) ;
+	abstract Color getColor(String type) ;
+
+}

@@ -1,0 +1,19 @@
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//          char s = 'C'-'A';
+//          
+//          System.out.println((int)s);
+		
+		
+          char ch;
+          
+          for( ch = 'B' ; ch <= 'Z' ; ch++ )
+             System.out.println((int)ch-'A');
+
+
+	}
+
+}
